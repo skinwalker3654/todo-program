@@ -1,47 +1,44 @@
-# *TODO-MANAGER in C*
+# **📝 TODO Manager in C**  
 
-## Description
-### its a todo-manager program 
-### with functions like:
+A lightweight command-line task manager written in **C**. Perfect for tracking daily tasks with minimal dependencies.  
 
-- add_task()
-- delete_task()
-- print_task()
-- mark_task()
-- save_task()
+---
 
-## How to run the program
-Requirments: gcc compiler
-```bash
-make
-make run
-```
-when you want to delete the files
-```bash
-make clean
-```
-## __You can find the saved data__
-## __and executable file on__
-## __The bin folder__
+## ✨ **Features**  
+- ✅ **Add tasks**  
+- ❌ **Delete tasks**  
+- 📋 **List all tasks**  
+- ✔️ **Mark tasks as complete**  
+- 💾 **Save/Load tasks** (persistent storage)  
+
+---
+
+## 🛠️ **Installation**  
+
+### **Requirements**  
+- GCC compiler  
+- GNU Make  
+
+### **Steps**  
+1. Clone the repo:  
+   ```bash
+   git clone github.com/skinwalker3654/todo-program.git
+   ```
+2. Compile & run
+   ```bash
+   cd todo-program
+   make && make run
+   ```
 
 # FILE STRUCTURE
-
-todo-program
- |
- |--examples/
- |   |--usage.txt
- |
- |--src/
- |   |--main.c
- |   |--todo.c
- |   |--todo.h
- |
- |--.gitignore (ignores the bin folder)
- |
- |--Makefile
- |--README.md
- |--LICENSE
- |
- |--bin/ (When program executed)
-     |--main
-     |--tasks.txt (if you save the data)
+todo-manager/
+├── src/
+│   ├── main.c        # Program entry point
+│   ├── todo.c        # Core functionality
+│   └── todo.h        # Header file
+├── bin/
+│   ├── main          # Compiled binary
+│   └── tasks.txt     # Task database
+├── Makefile          # Build configuration
+├── LICENSE           # MIT License
+└── README.md         # This file
