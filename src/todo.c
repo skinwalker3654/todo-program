@@ -8,7 +8,7 @@ int task_count = 0;
 //add
 void add_task() {
     if(task_count >= MAX_TASKS-1) {
-        printf("\nError: Task overflow\n");
+        printf("\nError: Task overflow\n\n");
         return;
     }
 
@@ -28,7 +28,7 @@ void add_task() {
 //delete
 void delete_task() {
     if(task_count == 0) {
-        printf("\nError: No tasks yet\n");
+        printf("\nError: No tasks yet\n\n");
         return;
     }
     
@@ -70,7 +70,7 @@ void print_task() {
 //mark
 void mark_task() {
     if(task_count == 0) {
-        printf("\nError: No tasks yet\n");
+        printf("\nError: No tasks yet\n\n");
         return;
     }
 
@@ -95,7 +95,7 @@ void mark_task() {
 //save
 void save_task() {
     if(task_count == 0) {
-        printf("\nError: No tasks yet\n");
+        printf("\nError: No tasks yet\n\n");
         return;
     }
 
