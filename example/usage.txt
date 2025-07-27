@@ -1,0 +1,53 @@
+//OPERATIONS EXPLAINDED
+
+==================================================
+
+add_task()  # adding a task
+    -> Enter task name: TASK_NAME
+    TASK_NAME added succesfully
+
+==================================================
+
+print_task() # printing tasks
+    -> index 0: name: 'TASK_NAME' []
+
+==================================================
+
+mark_task() # marking the task
+    -> Enter task index: 0
+    task 0 marked as done
+
+==================================================
+
+print_task() # printing it again but now is marked
+    -> index 0: name: 'TASK_NAME' [X]
+
+==================================================
+
+delete_task() # deleting that tasks
+    -> Enter task index: 0
+    task 0 deleted succesfully
+
+==================================================
+
+print_task() # printing again but now there is no tasks
+    -> No task yet
+
+==================================================
+
+save_task() 
+    #saves the tasks into a tasks.txt file
+
+==================================================
+
+//REAL UI:
+    1. Add task
+    2. Delte_task
+    3. Print_tasks
+    4. Mark task
+    5. Save tasks
+    6. Exit
+
+    Pick an option 1-6:
+    ...
+
