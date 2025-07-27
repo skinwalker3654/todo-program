@@ -14,7 +14,7 @@ void add_task() {
 
     printf("\nEnter task name: ");
     if(fgets(tasks[task_count].name,sizeof(tasks[task_count].name),stdin)==NULL) {
-        printf("\nError: Input failure\n");
+        printf("\nError: Input failure\n\n");
         return;
     }
 
@@ -35,14 +35,14 @@ void delete_task() {
     int index;
     printf("\nEnter task index: ");
     if(scanf("%d",&index)!=1) {
-        printf("Error: Invalid input\n");
+        printf("Error: Invalid input\n\n");
         return;
     }
     int ch;
     while((ch=getchar())!='\n'&&ch!=EOF);
 
     if(index < 0 || index > task_count-1) {
-        printf("Error: Value %d not found\n",index);
+        printf("Error: Value %d not found\n\n",index);
         return;
     }
 
@@ -77,14 +77,14 @@ void mark_task() {
     int index;
     printf("\nEnter task index: ");
     if(scanf("%d",&index)!=1) {
-        printf("Error: Invalid input\n");
+        printf("Error: Invalid input\n\n");
         return;
     }
     int ch;
     while((ch=getchar())!='\n'&&ch!=EOF);
     
     if(index < 0 || index > task_count-1) {
-        printf("Error: Value %d not found\n",index);
+        printf("Error: Value %d not found\n\n",index);
         return;
     }
 
@@ -101,7 +101,7 @@ void save_task() {
 
     FILE *file = fopen("bin/tasks.txt","w");
     if(!file) {
-        printf("\nError: Failed to save the data\n");
+        printf("\nError: Failed to save the data\n\n");
         return;
     }
 
