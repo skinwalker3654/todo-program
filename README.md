@@ -22,7 +22,7 @@ A lightweight command-line task manager written in **C**. Perfect for tracking d
 ### **Steps**  
 1. Clone the repo:  
    ```bash
-   git clone github.com/skinwalker3654/todo-program.git
+   git clone git@github.com:skinwalker3654/todo-program.git
    ```
 2. Compile & run
    ```bash
