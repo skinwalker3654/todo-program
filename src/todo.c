@@ -55,7 +55,7 @@ void delete_task() {
 //print
 void print_task() {
     if(task_count == 0) {
-        printf("\nError: No tasks yet\n");
+        printf("\nError: No tasks yet\n\n");
         return;
     }
 
