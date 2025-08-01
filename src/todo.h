@@ -5,7 +5,7 @@
 #define MAX_TASKS 100
 typedef struct { 
     char name[50];
-    int completed;;
+    int completed;
 } Task;
 
 //global varibles
