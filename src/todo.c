@@ -64,6 +64,7 @@ void print_task() {
         printf("index %d: name: %s [%c]\n"
             ,i,tasks[i].name,(tasks[i].completed==1) ? 'X' : ' ');
     }
+    
     printf("\n");
 }
 
