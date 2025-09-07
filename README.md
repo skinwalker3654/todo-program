@@ -33,16 +33,16 @@ A lightweight command-line task manager written in **C**. Perfect for tracking d
 
 ```text
 todo-manager/
-├── src/
-│   ├── main.c          # Program entry point
-│   ├── todo.c          # Core functionality
-│   └── todo.h          # Header file
-├── bin/
-│   ├── main            # Compiled binary
-│   └── tasks.txt       # Task database
-├── examples/
-│   └── usage.txt       # Example commands
-├── Makefile            # Build configuration
-├── LICENSE             # MIT License
-└── README.md           # This file
+   ├── src/
+   │    ├── main.c          # Program entry point
+   │    ├── todo.c          # Core functionality
+   │    └── todo.h          # Header file
+   ├── bin/
+   │    ├── main            # Compiled binary
+   │    └── tasks.txt       # Task database
+   ├── examples/
+   │    └── usage.txt       # Example commands
+   ├── Makefile            # Build configuration
+   ├── LICENSE             # MIT License
+   └── README.md           # This file
 ```
